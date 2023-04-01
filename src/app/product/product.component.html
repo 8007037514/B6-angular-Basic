@@ -1,0 +1,30 @@
+
+
+<h1 class="bg-info mt-4 text-center"><marquee>Lapotps Models</marquee></h1>
+
+<p class="bg-primary para">1. {{pName}}Laptop i5 Genration Latest Model</p>
+<p class="bg-secondary para">2.{{pName[1]}} Laptop i5 Genration Latest Model</p>
+<p class="bg-danger para">3. {{pName[2]}} Laptop i5 Genration Latest Model</p>
+<strong [innerHTML]="pName[0]"></strong><br>
+<strong [innerHTML]="'iPhone'"></strong>
+
+
+
+<app-products></app-products>
+<div class="form-group">
+    <div class="row">
+        <div class="col-sm-6">
+            <input type="text" [value]="pName[0]" id="" class="form-control">
+        </div>
+        <div class="col-sm-2">
+            <button class="btn btn-primary">submit</button>
+        </div>
+    </div>
+        
+
+</div>
+
+
+
+
+
